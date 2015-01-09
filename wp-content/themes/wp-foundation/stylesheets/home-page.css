@@ -1,0 +1,35 @@
+/*
+
+		Hutchens Industries
+		-------------------------------------------
+		Custom SASS Variables, Mixins, Etc.
+		Modified: 2014.02.25
+
+*/
+.home-page-overlapping-content { margin-top: -80px; }
+@media (max-width: 767px) { .home-page-overlapping-content { margin-top: -15px; } }
+
+.product-img { margin-top: 90px; }
+@media (max-width: 767px) { .product-img { margin-top: 20px !important; } }
+
+.home-page-h3 { color: #ec2a26; margin-top: 50px; font-weight: lighter; font-size: 3em; }
+@media (max-width: 767px) { .home-page-h3 { margin-top: 0; } }
+
+.text-border-left { margin-top: 80px !important; }
+
+.xl { margin-top: .7em !important; }
+
+.mxl { margin-top: .4em !important; }
+
+.xxl { margin-bottom: -0.28em; }
+
+.xl, .mxl, .xxl { text-shadow: -1px 0 #404041, 0 1px #404041, 1px 0 #404041, 0 -1px #404041 !important; }
+@media (max-width: 767px) { .xl, .mxl, .xxl { display: none; } }
+@media (max-width: 940px) { .xl, .mxl, .xxl { font-size: 4em !important; margin-top: 75px !important; } }
+@media (max-width: 1023px) { .xl, .mxl, .xxl { font-size: 4em !important; margin-top: 75px !important; } }
+
+.no-padding { margin: 0 !important; }
+
+@media (max-width: 767px) { .text-border-left { border-left: none !important; } }
+
+@media (max-width: 767px) { .section-body-heading { padding: 0 !important; margin: 0 !important; } }

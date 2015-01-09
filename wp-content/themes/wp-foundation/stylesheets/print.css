@@ -1,0 +1,8 @@
+@media print {
+  body{background-color:#FFFFFF;background-image:none;color:#000000;}
+  /* print bug fix for Foundation */
+  div:not(.reveal-modal) {display:inherit !important;}
+  a[href]:after {content:none !important;}
+  a {color:#000 !important;text-decoration:none !important;border:none !important;}
+  nav.top-bar ul.nav-bar, .show-for-medium nav.top-bar, footer #top-link, footer #footer-nav, #form-loader {display:none !important;}
+}

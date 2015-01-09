@@ -1,0 +1,25 @@
+/*
+Template: Product - Definitions
+*/
+/*
+
+		Hutchens Industries
+		-------------------------------------------
+		Custom SASS Variables, Mixins, Etc.
+		Modified: 2014.02.25
+
+*/
+.product-headline h1 { margin-bottom: 0 !important; }
+
+.product-left p { line-height: 1em; }
+.product-left a { background: #cecece; display: block; color: #313131; padding: 10px 10px 10px 10px; line-height: 14px !important; text-transform: uppercase; border-right: 40px solid #404041; position: relative; border-bottom: none !important; }
+.product-left a:after { content: url("/wp-content/themes/wp-foundation/images/hutchens/bg-transparent.png"); background: url("/wp-content/themes/wp-foundation/images/hutchens/bg-white-arrow.png") no-repeat center center; color: #404041; position: absolute; top: 0; right: -40px; height: 100%; width: 40px; display: block; }
+.product-left a:hover:after { background: url("/wp-content/themes/wp-foundation/images/hutchens/bg-red-arrow.png") no-repeat center center; }
+.product-left h3 { color: #ec2a26; font-weight: lighter; }
+
+.product-right { border-left: 2px solid #cecece; margin: 0 1em 1em 1em; padding: 0 1em; }
+@media (max-width: 767px) { .product-right { border-left: none; margin: 0; } }
+.product-right h2 { color: #ec2a26; font-weight: lighter; }
+.product-right ul { margin-left: 25px; }
+
+#main-content-row { min-height: 400px; }

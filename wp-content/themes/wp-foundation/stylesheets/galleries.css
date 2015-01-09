@@ -1,0 +1,13 @@
+/*
+
+		Hutchens Industries
+		-------------------------------------------
+		Custom SASS Variables, Mixins, Etc.
+		Modified: 2014.02.25
+
+*/
+.img-container-1 { margin-bottom: 50px; display: inline-block; }
+
+.img-container-2 { float: left; height: 50%; width: 100px; margin-bottom: -50px; overflow: hidden; text-align: center; border: 1px solid #cecece; }
+
+.img-container-2 a img { clear: both; height: 100px; position: relative; top: 6px; }

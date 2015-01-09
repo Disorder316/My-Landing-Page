@@ -1,0 +1,28 @@
+/*
+Document   : series-10
+Created on : Apr 1, 2014, 9:58:31 AM
+Author     : Jeramie Hendricks
+Description:
+Styles for the Series 10 Features Section
+*/
+/*
+
+		Hutchens Industries
+		-------------------------------------------
+		Custom SASS Variables, Mixins, Etc.
+		Modified: 2014.02.25
+
+*/
+#video-container { margin-top: 2em; }
+
+#video-bullet-container { margin-top: 2em; margin-bottom: 2em; min-height: 450px; }
+#video-bullet-container ul { position: absolute; top: 0; list-style: none; z-index: 2; }
+#video-bullet-container ul li { padding-bottom: 10px; cursor: pointer; line-height: 14px; }
+
+video { -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -o-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -ms-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
+
+.indent-sm { padding-left: 10px; }
+
+h6 { letter-spacing: 0px !important; color: #404041; padding: 0; margin: 0; opacity: 1 !important; }
+
+.slide-follower { z-index: 1; position: relative; top: 0; left: 20px; margin-top: 0px; height: 28px; width: 2px; background-color: #ec2a26; opacity: .6; }
